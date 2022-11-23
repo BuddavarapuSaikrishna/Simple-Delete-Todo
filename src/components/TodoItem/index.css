@@ -1,0 +1,22 @@
+/* Write your CSS here */
+
+.todo-list-items {
+  list-style: none;
+  padding: 6px;
+}
+
+.Todo-Item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  margin-top: 12px;
+  height: 34px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid #ff0b37;
+  background-color: #ffffff;
+  color: #ff0b37;
+  cursor: pointer;
+}
